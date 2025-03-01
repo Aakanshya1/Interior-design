@@ -20,7 +20,7 @@ function Blog() {
       <div className="service-img relative" data-aos="fade-up">
         <img src={blog1} className='h-full w-full'/>
         <div className="absolute w-full  text-center ser text-white text-2xl md:text-5xl top-7 md:pt-20">
-          <div className=''> Articles and News</div>
+          <div className='text-black'> Articles and News</div>
          </div>
       </div>
 

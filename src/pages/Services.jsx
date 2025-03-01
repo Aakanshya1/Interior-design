@@ -19,7 +19,7 @@ function Services() {
       <div className="service-img relative" data-aos="fade-up">
         <img src={servicesimg} className='h-full w-full'/>
         <div className="absolute w-full  text-center ser text-white text-2xl md:text-5xl top-7 md:pt-20">
-          <div className=''> Services</div>
+          <div className='text-black'> Services</div>
          </div>
       </div>
 

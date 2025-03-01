@@ -9,7 +9,7 @@ import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import './App.css'
 import AuthForm from './pages/AuthForm'
-
+import ScrollToTop from './components/ScrollToTop'
 function App() {
   
 
@@ -18,6 +18,7 @@ function App() {
       <Navbar />
      
     <div className='w-full h-screen  '>
+      <ScrollToTop/>
     <Routes>
       <Route  path="/" element={<Home/>}/>
       <Route path ="/aboutus" element={<Aboutus/>}/>

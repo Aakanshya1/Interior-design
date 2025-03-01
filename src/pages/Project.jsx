@@ -33,7 +33,7 @@ function Project() {
       <div className="service-img relative" data-aos="fade-up">
         <img src={project1} className='h-full w-full'/>
         <div className="absolute w-full  text-center ser text-white text-2xl md:text-5xl top-7 md:pt-20">
-          <div className=''>Our Project</div>
+          <div className='text-black'>Our Project</div>
          </div>
       </div>
       <div>
@@ -46,7 +46,7 @@ function Project() {
           </div>
         </div>
     
-      <div className=" w-full flex ">
+      <div className=" w-full flex justify-center">
          <div className='flex justify-center'>{current.pagename}</div>
       </div>
       </div>
